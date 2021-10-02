@@ -19,7 +19,7 @@
 
         <!-- Center content + search button -->
         <div id="content">
-            <iframe src="https://www.google.com/maps/d/embed?mid=1cPVVN1MZRkgeb82MWIrCQlv_2eeTCW2L" width="100%" height="480"></iframe>
+            <iframe src="https://www.google.com/maps/d/embed?mid=1cPVVN1MZRkgeb82MWIrCQlv_2eeTCW2L"></iframe>
         </div>
 
         <!-- Sidebar -->
