@@ -17,6 +17,9 @@
         </div>
 
         <!-- Center content + search button -->
+        <div id="content">
+            <iframe src="https://www.google.com/maps/d/embed?mid=1cPVVN1MZRkgeb82MWIrCQlv_2eeTCW2L" width="100%" height="480"></iframe>
+        </div>
 
         <!-- Sidebar -->
         <div id="sidebar" class="hide">
@@ -27,7 +30,6 @@
                 <li><a href="">Support</a></li>
             </ul>
         </div>
-        <!-- <iframe src="https://www.google.com/maps/d/embed?mid=1cPVVN1MZRkgeb82MWIrCQlv_2eeTCW2L" width="640" height="480"></iframe> -->
     </section>
 
     <script type="text/javascript">
