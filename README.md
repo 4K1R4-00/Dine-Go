@@ -12,3 +12,4 @@ Dine-go is an online web based application, which support mobile viewing to allo
 1. Download or clone the repo
 2. Extract or go to the repo directory
 3. Run the `docker-compose up -d` on the cli or through the GUI
+4. Web-server resides in `http://127.0.0.1/`
