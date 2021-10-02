@@ -1,12 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dashboard | Dine-Go an easy solution to dining</title>
+<?php
+    $title="Dashboard | Dine-Go an easy solution to dining";
 
-    <link rel="stylesheet" type="text/css" href="stylesheet/stylesheet.css" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-</head>
+    include("./stylesheet/header.html");
+?>
+
 <body>
     <!-- Container -->
     <section>
@@ -14,6 +11,10 @@
         <div id="nav">
             <span id="mobile" onclick="toggleSidebar()"><i class="material-icons">menu</i></span>
             <span id="title">DINE-GO</span>
+            <div class="right">
+                <span>Help Center</span>
+                <span>Login</span>
+            </div>
         </div>
 
         <!-- Center content + search button -->
