@@ -16,6 +16,7 @@
         <!-- Center content + search button -->
         <div id="content">
             <iframe src="https://www.google.com/maps/d/embed?mid=1cPVVN1MZRkgeb82MWIrCQlv_2eeTCW2L"></iframe>
+            <button id="search_btn"><i class="material-icons">search</i></button>
         </div>
 
         <!-- Sidebar -->
