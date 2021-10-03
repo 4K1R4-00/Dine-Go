@@ -200,13 +200,23 @@ div.features>div.item{
   }
 }
 
-@media screen and (max-width:753px) {
+@media screen and (max-width:755px) {
   div.features>div.item{
     display: block;
     margin: 0 auto;
     margin-bottom: 20px;
     width: 80%;
     height: 189px;
+  }
+}
+
+@media screen and (max-width:407px) {
+  div.features>div.item{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    width: 80%;
+    height: 202px;
   }
 }
 
@@ -225,4 +235,17 @@ div.features>div.item>p{
   width: 83%;
   margin: 0 auto;
   color: #848484;margin-top: 10px;
+}
+
+/* Footer */
+.footer{
+  margin-top: 20px;
+  height: 30px;
+  background-color: #f2f2f2;
+}
+
+.footer>p{
+  padding-top: 9px;
+  text-align: center;
+  color: #898989;
 }

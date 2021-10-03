@@ -14,7 +14,8 @@
 
       <!-- Center content + search button -->
       <div id="content">
-          <div id="banner" style="">
+          <!-- Banner Homepage -->
+          <div id="banner">
               <div class="intro">
                   <p id="title2">DINE-GO</p>
                   <p>Want to dine in but feel insecure?</p>
@@ -26,6 +27,7 @@
                   </div>
               </div>
           </div>
+          <!-- Features Homepage -->
           <div class="features">
               <h1>FEATURES</h1>
               <div class="item">
@@ -49,6 +51,10 @@
                   </div>
                   <p>To develop an interactive website based on a real-time hotspot location.</p>
               </div>
+          </div>
+          <!-- Footer Homepage -->
+          <div class="footer">
+              <p>&copy; 2021 DINE-GO</p>              
           </div>
       </div>
 
