@@ -14,10 +14,13 @@
         </div>
 
         <!-- Center content + search button -->
-        <div id="content">
+        <div id="contentDash">
             <iframe src="https://www.google.com/maps/d/embed?mid=1cPVVN1MZRkgeb82MWIrCQlv_2eeTCW2L"></iframe>
             <form onsubmit="toggleSearchBar(); return false;">
-                <input  id="searchbar" class="hide" type="text" name="search">
+                <div id="searchCtn" class="hide">
+                    <span class="material-icons">search</span>
+                    <input  id="searchbar" type="text" name="search">
+                </div>
                 <input id="submitbtn" type="submit" name="submit">
             </form>
             <button id="searchbtn" onclick="toggleSearchBar()"><i class="material-icons">search</i></button>
@@ -52,7 +55,7 @@
 
         function toggleSearchBar()
         {
-            var searchbar   =   document.getElementById("searchbar");
+            var searchbar   =   document.getElementById("searchCtn");
 
             if (searchbar.classList.contains("hide"))
             {
