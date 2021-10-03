@@ -170,6 +170,11 @@ body{
   background-color: #34a0a4;
 }
 
+#content
+{
+    position: relative;
+}
+
 #searchbtn
 {
     z-index: 1000;
@@ -196,7 +201,7 @@ body{
     z-index: 1000;
     display: block;
     position: absolute;
-    width: 200px;
+    width: 240px;
     height: 30px;
     border-radius: 50px;
     outline: none;
@@ -204,8 +209,9 @@ body{
     border: 1px solid lightblue;
     background: black;
     color: white;
-    bottom: 20%;
-    right: 45%;
+    bottom: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 #searchbar.hide
