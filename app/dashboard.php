@@ -16,7 +16,11 @@
         <!-- Center content + search button -->
         <div id="content">
             <iframe src="https://www.google.com/maps/d/embed?mid=1cPVVN1MZRkgeb82MWIrCQlv_2eeTCW2L"></iframe>
-            <button id="search_btn"><i class="material-icons">search</i></button>
+            <form onsubmit="toggleSearchBar(); return false;">
+                <input  id="searchbar" class="hide" type="text" name="search">
+                <input id="submitbtn" type="submit" name="submit">
+            </form>
+            <button id="searchbtn" onclick="toggleSearchBar()"><i class="material-icons">search</i></button>
         </div>
 
         <!-- Sidebar -->
@@ -47,6 +51,20 @@
             }
         }
 
+        function toggleSearchBar()
+        {
+            var searchbar   =   document.getElementById("searchbar");
+
+            if (searchbar.classList.contains("hide"))
+            {
+                searchbar.classList.add("show");
+                searchbar.classList.remove("hide");
+            } else
+            {
+                searchbar.classList.add("hide");
+                searchbar.classList.remove("show");
+            }
+        }
     </script>
 </body>
 </html>
