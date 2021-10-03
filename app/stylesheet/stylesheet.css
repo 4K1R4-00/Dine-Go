@@ -200,7 +200,7 @@ div.features>div.item{
   }
 }
 
-@media screen and (max-width:755px) {
+@media screen and (max-width:775px) {
   div.features>div.item{
     display: block;
     margin: 0 auto;
@@ -210,13 +210,13 @@ div.features>div.item{
   }
 }
 
-@media screen and (max-width:407px) {
+@media screen and (max-width:417px) {
   div.features>div.item{
     display: block;
     margin: 0 auto;
     margin-bottom: 20px;
     width: 80%;
-    height: 202px;
+    height: 212px;
   }
 }
 
