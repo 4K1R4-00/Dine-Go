@@ -10,7 +10,7 @@
         <!-- Navigation -->
         <div id="nav">
             <span id="mobile" onclick="toggleSidebar()"><i class="material-icons">menu</i></span>
-            <span id="title">DINE-GO</span>            
+            <span id="title">DINE-GO</span>
         </div>
 
         <!-- Center content + search button -->
