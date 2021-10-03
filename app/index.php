@@ -27,7 +27,28 @@
               </div>
           </div>
           <div class="features">
-
+              <h1>FEATURES</h1>
+              <div class="item">
+                  <p class="header">FAST</p>
+                  <div class="">
+                      <span class="material-icons">speed</span>
+                  </div>
+                  <p>To save time when looking for a restaurant to dine at.</p>
+              </div>
+              <div class="item">
+                  <p class="header">EASY</p>
+                  <div class="">
+                      <span class="material-icons">touch_app</span>
+                  </div>
+                  <p>Friendly user UI to reserve and survey restaurant and cafe</p>
+              </div>
+              <div class="item">
+                  <p class="header">REAL-TIME</p>
+                  <div class="">
+                      <i class="material-icons">access_time</i>
+                  </div>
+                  <p>To develop an interactive website based on a real-time hotspot location.</p>
+              </div>
           </div>
       </div>
 
