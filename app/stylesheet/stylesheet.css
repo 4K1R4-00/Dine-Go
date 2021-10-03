@@ -97,13 +97,13 @@ body{
     padding: 10px 0px 10px 10px;
     display: block;
     text-decoration: none;
-    vertical-align: middle;
 }
 
 #sidebar ul li a i
 {
-    font-size: 15px;
+    font-size: 16px;
     margin-right: 5px;
+    vertical-align: middle;
 }
 
 #sidebar ul li a:hover
@@ -305,7 +305,7 @@ div.features>div.item>p{
     transform: translate(-50%, -50%);
 }
 
-#searchCtn>span 
+#searchCtn>span
 {
     padding: 5px 0px;
     display: inline-block;
