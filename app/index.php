@@ -14,8 +14,18 @@
 
       <!-- Center content + search button -->
       <div id="content">
-
-
+          <div id="banner" style="">
+              <div class="intro">
+                <p id="title2">DINE-GO</p>
+                <p>Want to dine in but feel insecure?</p>
+                <p>Choose "Dine-Go"</p>
+                <p>Find Dineable or Takeaway</p>
+                <p>Only Establishment With Us</p>
+                <div class="button">
+                  <a href="dashboard.php">FIND DINE IN</a>
+                </div>
+              </div>
+          </div>
       </div>
 
       <!-- Sidebar -->
