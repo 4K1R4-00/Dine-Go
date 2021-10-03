@@ -100,7 +100,7 @@ body{
     vertical-align: middle;
 }
 
-#sidebar ul li a i 
+#sidebar ul li a i
 {
     font-size: 15px;
     margin-right: 5px;
@@ -260,4 +260,63 @@ div.features>div.item>p{
   padding-top: 9px;
   text-align: center;
   color: #898989;
+}
+
+#content
+{
+    position: relative;
+}
+
+#searchbtn
+{
+    z-index: 1000;
+    display: block;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    color: white;
+    background: black;
+    border-radius: 100px;
+    border: 1px solid lightblue;
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+}
+
+#searchbtn:hover
+{
+    background: lightblue;
+}
+
+#searchbar
+{
+    z-index: 1000;
+    display: block;
+    position: absolute;
+    width: 240px;
+    height: 30px;
+    border-radius: 50px;
+    outline: none;
+    padding: 0px 10px;
+    border: 1px solid lightblue;
+    background: black;
+    color: white;
+    bottom: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#searchbar.hide
+{
+    display: none;
+}
+
+#searchbar.show
+{
+    display: block;
+}
+
+#submitbtn
+{
+    display: none;
 }
