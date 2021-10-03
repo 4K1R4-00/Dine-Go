@@ -1,7 +1,7 @@
 <?php
     $title="Dashboard | Dine-Go an easy solution to dining";
 
-    include("./stylesheet/header.html");
+    include("./includes/header.html");
 ?>
 
 <body>
