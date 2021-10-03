@@ -22,9 +22,12 @@
                   <p>Find Dineable or Takeaway</p>
                   <p>Only Establishment With Us</p>
                   <div class="button">
-                    <a href="dashboard.php">FIND DINE IN</a>
+                      <a href="dashboard.php">FIND DINE IN</a>
                   </div>
               </div>
+          </div>
+          <div class="features">
+
           </div>
       </div>
 
