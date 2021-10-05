@@ -50,7 +50,9 @@
         <!-- Sidebar -->
         <div id="sidebar" class="hide">
             <ul>
-                <li><a href=""><i class="material-icons">history</i>Reservation</a></li>
+                <li><a href=""><i class="material-icons">history</i>Reservation</a>
+                    
+                </li>
                 <li><a href=""><i class="material-icons">favorite</i>Favourites</a></li>
                 <li><a href=""><i class="material-icons">help</i>Support</a></li>
             </ul>
