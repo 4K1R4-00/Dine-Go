@@ -59,14 +59,7 @@
       </div>
 
       <!-- Sidebar -->
-      <div id="sidebar" class="hide">
-          <ul>
-              <li><a href="">Tracking</a></li>
-              <li><a href="">Favourite</a></li>
-              <li><a href="">Reservation</a></li>
-              <li><a href="">Support</a></li>
-          </ul>
-      </div>
+      <?php include "includes/sidebar.php"; ?>
   </section>
 
   <script type="text/javascript">
