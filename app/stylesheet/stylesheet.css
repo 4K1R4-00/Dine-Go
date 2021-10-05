@@ -2,7 +2,7 @@ body{
     padding: 0;
     margin: 0;
     height: 100vh;
-    font-family: arial;
+    font-family: roboto;
 }
 
 /* Navigation */
@@ -143,7 +143,9 @@ body{
 
 /* Banner */
 #banner{
-  background-image: url('../includes/banner.jpg');
+  background-color: #414142;
+  background-image: linear-gradient(
+  180deg, #414142, rgba(65, 65, 66, 0) 26%), linear-gradient(180deg, rgba(65, 65, 66, 0.9), rgba(65, 65, 66, 0.9)), url('../includes/bg2.png');
   text-align: center;
   width: 100%;
   height: 89vh;
@@ -153,36 +155,52 @@ body{
 }
 
 #banner>div.intro>#title2{
-  font-size: 102px;
-  margin: 16px 0;
+  font-size: 122px;
+  margin: 94px 0 35px 0;
+  font-family: Changa One;
+  font-weight: normal;
 }
 
-@media screen and (max-width: 480px){
-  #banner>div.intro>#title2{
-    font-size: 73px;
-  }
-}
 
 #banner>div.intro>p:not(#title2){
-  font-size: 23px;
+  font-size: 40px;
   color: #168aad;
+  font-weight: lighter;
+  margin: 18px 0 0 0 ;
 }
 
 #banner>div.intro>div.button{
   display: inline-block;
   box-sizing: border-box;
-  margin-top: 47px;
+  margin-top: 65px;
 }
 
 .button>a{
-  background-color: #168aad;
+  background-color: #25a9e2;
   text-decoration: none;
   color: white;
-  border-radius: 10px;
+  border-radius: 18px;
   padding: 11px 23px;
   line-height: 2.5;
+  font-family: Changa One;
+  font-weight: normal;
+  font-size: 26px;
 }
 
+@media screen and (max-width: 680px){
+  #banner>div.intro>#title2{
+    font-size: 73px;
+  }
+
+  #banner>div.intro>p:not(#title2){
+    font-size: 22px;
+    margin: 13px 0 0 0;
+  }
+
+  .button>a{
+    font-size: 19px;
+  }
+}
 .button>a:hover{
   background-color: #34a0a4;
 }
@@ -191,6 +209,10 @@ body{
 .features{
   padding: 0 68px;
   text-align: center;
+}
+
+div.features>h1{
+  margin: 19px 0 29px;
 }
 
 div.features>div.item{
@@ -203,12 +225,18 @@ div.features>div.item{
   vertical-align: top;
   height: 194px;
   background-image: linear-gradient(45deg, #d3edff, #dfe0e1);
-  padding-bottom: 10px;
+  padding-bottom: 30px;
 }
 
-@media screen and (max-width:927px) {
+@media screen and (max-width:1347px) {
   div.features>div.item{
     height: 220px;
+  }
+}
+
+@media screen and (max-width:935px) {
+  div.features>div.item{
+    padding-bottom: 60px;
   }
 }
 
@@ -218,11 +246,11 @@ div.features>div.item{
     margin: 0 auto;
     margin-bottom: 20px;
     width: 80%;
-    height: 189px;
+    height: 166px;
   }
 }
 
-@media screen and (max-width:417px) {
+@media screen and (max-width:427px) {
   div.features>div.item{
     display: block;
     margin: 0 auto;
@@ -242,16 +270,18 @@ div.features>div.item>div>i,div.features>div.item>div>span{
   font-size: 100px;
 }
 
-div.features>div.item>p{
+div.features>div.item>p:not(p.header){
   font-weight: initial;
   width: 83%;
   margin: 0 auto;
   color: #848484;margin-top: 10px;
+  text-align: justify;
+  line-height: 1.5;
 }
 
 /* Footer */
 .footer{
-  margin-top: 20px;
+  margin-top: 50px;
   height: 30px;
   background-color: #f2f2f2;
 }
