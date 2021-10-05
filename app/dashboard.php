@@ -27,7 +27,7 @@
             <form onsubmit="toggleForm(); return false;">
                 <div id="reservation" class="hide">
                     <label for="res_name">Restaurant:</label>
-                    <input type="text" id="res_name" name="res_name" value="Texas Chicken">
+                    <input type="text" id="res_name" name="res_name" value="Texas Chicken Sunway V">
 
                     <label for="res_count">People:</label>
                     <select name="res_count" id="res_count">
