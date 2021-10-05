@@ -20,8 +20,8 @@
                   <p id="title2">DINE-GO</p>
                   <p>Want to dine in but feel insecure?</p>
                   <p>Choose "Dine-Go"</p>
-                  <p>Find Dineable or Takeaway</p>
-                  <p>Only Establishment With Us</p>
+                  <p>Find Dineable or Take Away</p>
+                  <p>only establishments with us</p>
                   <div class="button">
                       <a href="dashboard.php">FIND DINE IN</a>
                   </div>
@@ -54,7 +54,7 @@
           </div>
           <!-- Footer Homepage -->
           <div class="footer">
-              <p>&copy; 2021 DINE-GO</p>              
+              <p>&copy; 2021 DINE-GO</p>
           </div>
       </div>
 
