@@ -41,22 +41,14 @@
 
                     <label for="res_date">Date & Time:</label>
                     <input type="datetime-local" id="res_date" name="res_date">
+                    <input class="submitbtn" type="submit" name="submit" value="Confirm">
                 </div>
-                <input class="submitbtn" type="submit" name="submit">
             </form>
             <button id="searchbtn" onclick="toggleSearchBar()"><i class="material-icons">search</i></button>
         </div>
 
         <!-- Sidebar -->
-        <div id="sidebar" class="hide">
-            <ul>
-                <li><a href=""><i class="material-icons">history</i>Reservation</a>
-                    
-                </li>
-                <li><a href=""><i class="material-icons">favorite</i>Favourites</a></li>
-                <li><a href=""><i class="material-icons">help</i>Support</a></li>
-            </ul>
-        </div>
+        <?php include "includes/sidebar.php"; ?>
     </section>
 
     <script type="text/javascript">
@@ -73,6 +65,21 @@
             {
                 sidebar.classList.add("hide");
                 sidebar.classList.remove("show");
+            }
+        }
+
+        function toggleReservation()
+        {
+            var history     =   document.getElementById("history");
+
+            if (history.classList.contains("hide"))
+            {
+                history.classList.add("show");
+                history.classList.remove("hide");
+            } else
+            {
+                history.classList.add("hide");
+                history.classList.remove("show");
             }
         }
 
