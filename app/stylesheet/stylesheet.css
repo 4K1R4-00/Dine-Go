@@ -267,6 +267,43 @@ div.features>div.item>p{
     position: relative;
 }
 
+#reservation
+{
+    z-index: 1000;
+    position: absolute;
+    bottom: 30%;
+    left: 50%;
+    width: 300px;
+    padding: 10px;
+    transform: translate(-50%, -50%);
+    background: black;
+    color: white;
+}
+
+#reservation>input, #reservation>label
+{
+    display: block;
+}
+
+#reservation>input[type=text],
+#reservation>input[type=datetime-local],
+#reservation>select
+{
+    box-sizing: border-box;
+    width: 100%;
+    margin: 10px 0px;
+}
+
+#reservation.hide
+{
+    display: none;
+}
+
+#reservation.show
+{
+    display: block;
+}
+
 #searchbtn
 {
     z-index: 1000;
@@ -337,7 +374,7 @@ div.features>div.item>p{
     display: block;
 }
 
-#submitbtn
+.submitbtn
 {
     display: none;
 }

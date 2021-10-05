@@ -21,7 +21,28 @@
                     <span class="material-icons">search</span>
                     <input  id="searchbar" type="text" name="search">
                 </div>
-                <input id="submitbtn" type="submit" name="submit">
+                <input class="submitbtn" type="submit" name="submit">
+            </form>
+
+            <form onsubmit="toggleForm(); return false;">
+                <div id="reservation" class="hide">
+                    <label for="res_name">Restaurant:</label>
+                    <input type="text" id="res_name" name="res_name" value="Texas Chicken">
+
+                    <label for="res_count">People:</label>
+                    <select name="res_count" id="res_count">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                    </select>
+
+                    <label for="res_date">Date & Time:</label>
+                    <input type="datetime-local" id="res_date" name="res_date">
+                </div>
+                <input class="submitbtn" type="submit" name="submit">
             </form>
             <button id="searchbtn" onclick="toggleSearchBar()"><i class="material-icons">search</i></button>
         </div>
@@ -65,6 +86,21 @@
             {
                 searchbar.classList.add("hide");
                 searchbar.classList.remove("show");
+            }
+        }
+
+        function toggleForm()
+        {
+            var form   =   document.getElementById("reservation");
+
+            if (form.classList.contains("hide"))
+            {
+                form.classList.add("show");
+                form.classList.remove("hide");
+            } else
+            {
+                form.classList.add("hide");
+                form.classList.remove("show");
             }
         }
     </script>
